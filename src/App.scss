@@ -1,0 +1,53 @@
+#root {
+  min-width: 100%;
+}
+
+.header {
+  display: flex;
+  min-width: 100%;
+  height: 100px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-button {
+  font-size: 20px;
+  align-items: center;
+  width: 100px;
+  min-height: 100px;
+  color: black;
+  background-color: #FAF9F6;
+}
+
+.menu-button:hover {
+  background-color: #c5c4c2;
+}
+
+.title {
+  margin: auto;
+  height: 100%;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.h1-title {
+  margin:auto;
+}
+
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  min-width: 200px;
+  min-height: 30px;
+}
+
+.border-element {
+  border: 2px solid black;
+}
